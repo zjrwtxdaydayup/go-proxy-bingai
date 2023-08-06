@@ -267,7 +267,7 @@ const saveSetting = () => {
     </NModal>
     <NModal v-model:show="isShowSetAboutModal" preset="dialog" :show-icon="false">
       <template #header>
-        <div class="text-3xl py-2">关于</div>
+        <div class="text-3xl py-2">迷糊AI实验室</div>
       </template>
       <NForm ref="formRef" label-placement="left" label-width="auto" size="small" style="margin-top: 16px;">
         <NFormItem path="" label="版本号">
@@ -276,14 +276,14 @@ const saveSetting = () => {
         <NFormItem path="" label="最新版本">
           <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
         </NFormItem>
-        <NFormItem path="token" label="开源地址">
-          <NButton text tag="a" href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="官网地址">
+          <NButton text tag="a" href="https://xiaoyisenior.top" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
         </NFormItem>
-        <NFormItem path="token" label="原作者">
-          <NButton text tag="a" href="https://github.com/adams549659584" target="_blank" type="success">adams549659584</NButton>
+        <NFormItem path="token" label="公众号：迷糊AI实验室">
+          <NButton text tag="a" href="#" target="_blank" type="success">adams549659584</NButton>
         </NFormItem>
-        <NFormItem path="token" label="原开源地址">
-          <NButton text tag="a" href="https://github.com/adams549659584/go-proxy-bingai" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="迷糊AI实验室创始人：正经人王同学">
+          <NButton text tag="a" href="#" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
         </NFormItem>
       </NForm>
       <template #action>
